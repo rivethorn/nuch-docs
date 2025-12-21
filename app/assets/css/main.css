@@ -2,8 +2,8 @@
 @import "@nuxt/ui";
 
 @theme static {
-  --font-sans: "Source Sans 3", sans-serif;
+  --font-sans: "IBM Plex Sans", sans-serif;
   --font-mono: "Source Code Pro";
-  --text-base: 22px;
+  /* --text-base: 22px; */
   --ui-primary: #f75307;
 }
