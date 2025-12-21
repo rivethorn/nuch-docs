@@ -1,0 +1,15 @@
+{
+  "name": "nuch-docs",
+  "scripts": {
+    "dev": "nuxt dev --extends docus",
+    "build": "nuxt build --extends docus"
+  },
+  "dependencies": {
+    "@nuxt/fonts": "0.12.1",
+    "@nuxt/hints": "1.0.0-alpha.4",
+    "@nuxt/icon": "2.1.1",
+    "better-sqlite3": "^12.2.0",
+    "docus": "latest",
+    "nuxt": "^4.1.2"
+  }
+}
