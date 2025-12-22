@@ -1,6 +1,6 @@
 ---
 seo:
-  title: NUCH Docs
+  title: Nuxt Content Helper CLI
   description: A small CLI to help manage Markdown content and associated images for Nuxt Content sites.
 ---
 
@@ -14,7 +14,15 @@ A simple and efficient CLI to manage Markdown content and images for Nuxt Conten
 Written in Rust, NUCH makes sure your content is always optimized and ready to be deployed.
 
 #headline
-🎉 **Release v1**
+  :::u-button{.rounded-full }
+  ---
+  size: md
+  color: neutral
+  to: https://github.com/rivethorn/nuch/releases/latest
+  variant: subtle
+  ---
+  🎉 **Release v1**
+  :::
 
 #links
   :::u-button
