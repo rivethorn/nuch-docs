@@ -5,6 +5,15 @@ seo:
 ---
 
 ::u-page-hero
+---
+orientation: horizontal
+---
+
+:::img
+---
+src: /landing/banner.png
+alt: NUCH Logo
+---
 #title
 NUCH - Nuxt Content Helper CLI
 
@@ -47,86 +56,70 @@ Written in Rust, NUCH makes sure your content is always optimized and ready to b
   :::
 ::
 
-::u-page-section
-#title
-Shipped with many features
+::u-page-section{.-mt-20}
+  :::u-page-grid
+    ::::u-page-card
+    ---
+    spotlight: true
+    class: group col-span-2 lg:col-span-1
+    target: _blank
+    to: https://rust-lang.org/
+    ---
+    :floating-rust
 
-#features
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
-  ---
-  #title
-  Built with [Nuxt 4]{.text-primary}
-  
-  #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
-  :::
+    #title
+    Built with [Rust]{.text-primary}
 
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
-  ---
-  #title
-  Powered by [Nuxt UI]{.text-primary}
-  
-  #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
-  :::
+    #description
+    Optimized to the core, NUCH is built with Rust to ensure fast performance and low memory usage when processing your Markdown content and images.
+    ::::
 
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
-  ---
-  #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
-  
-  #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
-  :::
+    ::::u-page-card
+    ---
+    spotlight: true
+    class: col-span-2
+    target: _blank
+    to: https://content.nuxt.com
+    ---
+      :::::u-color-mode-image
+      ---
+      height: 320
+      width: 859
+      alt: Beautiful documents powered by Content
+      class: object-cover rounded-lg border border-accented
+      dark: /landing/content-dark.png
+      light: /landing/content-light.png
+      ---
+      :::::
 
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
-  ---
-  #title
-  Customize with [Nuxt App Config]{.text-primary}
-  
-  #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
-  :::
+    #title
+    Powered by [Nuxt Content]{.text-primary}
 
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
-  ---
-  #title
-  Collaborate on [Nuxt Studio]{.text-primary}
-  
-  #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
-  :::
+    #description
+    Build and render beautiful documentation sites with ease using Nuxt Content's file-based CMS capabilities, seamlessly integrated into NUCH.
+    ::::
 
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
-  ---
-  #title
-  Built-in navigation and [full-text search]{.text-primary}
-  
-  #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+    ::::u-page-card
+    ---
+    spotlight: true
+    class: col-span-2 lg:col-span-3
+    target: _blank
+    ---
+      :::::div{.bg-elevated.rounded-lg.p-3.overflow-x-auto}
+      ```toml [config.toml]
+      working_dir = "Documents/writings"
+      publishing_dir = "your-site/content"
+      working_images_dir = "Documents/writings/images"
+      publishing_images_dir = "your-site/public/images"
+      ```
+      :::::
+
+    #title
+    [Simple]{.text-primary} configuration
+
+    #description
+    Just add your desired directories to the configuration file and let NUCH handle the rest.
+    ::::
   :::
 ::
+
