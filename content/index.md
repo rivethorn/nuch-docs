@@ -6,7 +6,7 @@ seo:
 
 ::u-page-hero
 #title
-NUCH
+NUCH - Nuxt Content Helper CLI
 
 #description
 A simple and efficient CLI to manage Markdown content and images for Nuxt Content sites.
