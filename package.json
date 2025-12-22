@@ -9,8 +9,8 @@
     "@nuxt/hints": "1.0.0-alpha.4",
     "@nuxt/icon": "2.1.1",
     "@vercel/analytics": "^1.6.1",
-    "better-sqlite3": "^12.2.0",
+    "better-sqlite3": "^12.5.0",
     "docus": "latest",
-    "nuxt": "^4.1.2"
+    "nuxt": "^4.2.2"
   }
 }
