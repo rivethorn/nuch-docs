@@ -9,9 +9,12 @@ seo:
 NUCH
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
+A simple and efficient CLI to manage Markdown content and images for Nuxt Content sites.
 
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Written in Rust, NUCH makes sure your content is always optimized and ready to be deployed.
+
+#headline
+🎉 **Release v1**
 
 #links
   :::u-button
