@@ -13,4 +13,7 @@ export default defineAppConfig({
       dark: "/logo.png",
     },
   },
+  github: {
+    url: "https://github.com/rivethorn/nuch",
+  },
 });
