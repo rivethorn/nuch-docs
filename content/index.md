@@ -3,6 +3,7 @@ seo:
   title: Nuxt Content Helper CLI
   description: A small CLI to help manage Markdown content and associated images for Nuxt Content sites.
 ---
+:vercel-analytics
 
 ::u-page-hero
 ---
