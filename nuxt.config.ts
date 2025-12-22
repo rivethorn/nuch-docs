@@ -2,6 +2,9 @@ export default defineNuxtConfig({
   extends: ["@nuxtjs/plausible"],
   modules: ["@nuxt/ui"],
   css: ["~/assets/css/main.css"],
+  site: {
+    name: "NUCH",
+  },
   colorMode: {
     preference: "system",
     fallback: "dark",
