@@ -20,7 +20,7 @@ NUCH - Nuxt Content Helper CLI
 #description
 A simple and efficient CLI to manage Markdown content and images for Nuxt Content sites.
 
-Written in Rust, NUCH makes sure your content is always optimized and ready to be deployed.
+Written in Rust, NUCH makes sure your content is easily managed with just a few commands.
 
 #headline
   :::u-button{.rounded-full }
@@ -38,7 +38,7 @@ Written in Rust, NUCH makes sure your content is always optimized and ready to b
   ---
   color: neutral
   size: xl
-  to: /getting-started/installation
+  to: /installation
   trailing-icon: i-lucide-arrow-right
   ---
   Get started
