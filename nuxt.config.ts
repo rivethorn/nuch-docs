@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   extends: ["@nuxtjs/plausible"],
-  modules: ["@nuxt/ui"],
+  modules: ["@nuxt/ui", "@vercel/analytics", "@vercel/speed-insights"],
   css: ["~/assets/css/main.css"],
   site: {
     name: "NUCH",
