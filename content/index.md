@@ -4,6 +4,7 @@ seo:
   description: A small CLI to help manage Markdown content and associated images for Nuxt Content sites.
 ---
 :vercel-analytics
+:vercel-speed
 
 ::u-page-hero
 ---
