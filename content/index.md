@@ -109,10 +109,19 @@ Written in Rust, NUCH makes sure your content is easily managed with just a few 
     ---
       :::::div{.bg-elevated.rounded-lg.p-3.overflow-x-auto}
       ```toml [config.toml]
-      working_dir = "Documents/writings"
-      publishing_dir = "your-site/content"
-      working_images_dir = "Documents/writings/images"
-      publishing_images_dir = "your-site/public/images"
+      [working]
+files = "Documents/writings"
+images = "Documents/writings/images"
+
+[[collection]]
+name = "writing"
+files = "your-site/content"
+images = "your-site/public/images"
+
+[[collection]]
+name = "blogs"
+files = "your-site/content/blogs"
+# images omitted — optional
       ```
       :::::
 
