@@ -32,7 +32,7 @@ Written in Rust, NUCH makes sure your content is easily managed with just a few 
   to: https://github.com/rivethorn/nuch/releases/latest
   variant: subtle
   ---
-  🎉 **Release v1**
+  🎉 **Release v1.1**
   :::
 
 #links
