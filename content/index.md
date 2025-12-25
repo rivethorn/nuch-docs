@@ -51,7 +51,7 @@ Written in Rust, NUCH makes sure your content is easily managed with just a few 
   color: neutral
   icon: simple-icons-github
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: https://github.com/rivethorn/nuch
   variant: outline
   ---
   Star on GitHub
