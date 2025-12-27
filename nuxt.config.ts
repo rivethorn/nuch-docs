@@ -1,5 +1,4 @@
 export default defineNuxtConfig({
-  extends: ["@nuxtjs/plausible"],
   modules: ["@nuxt/ui"],
   css: ["~/assets/css/main.css"],
   site: {
@@ -36,7 +35,7 @@ export default defineNuxtConfig({
         },
         {
           name: "apple-mobile-web-app-title",
-          content: "Rivethorn's HQ",
+          content: "NUCH",
         },
       ],
       link: [

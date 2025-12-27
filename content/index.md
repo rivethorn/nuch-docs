@@ -1,7 +1,7 @@
 ---
 seo:
   title: Nuxt Content Helper CLI
-  description: A small CLI to help manage Markdown content and associated images for Nuxt Content sites.
+  description: A small CLI to help manage Nuxt Content files and associated images locally.
 ---
 :vercel-analytics
 :vercel-speed
@@ -20,7 +20,7 @@ alt: NUCH Logo
 NUCH - Nuxt Content Helper CLI
 
 #description
-A simple and efficient CLI to manage Markdown content and images for Nuxt Content sites.
+A simple and efficient CLI to manage supported files and images for Nuxt Content sites from your terminal.
 
 Written in Rust, NUCH makes sure your content is easily managed with just a few commands.
 
@@ -32,7 +32,7 @@ Written in Rust, NUCH makes sure your content is easily managed with just a few 
   to: https://github.com/rivethorn/nuch/releases/latest
   variant: subtle
   ---
-  🎉 **Release v1.1**
+  🎉 **Release v1.3**
   :::
 
 #links
@@ -73,7 +73,7 @@ Written in Rust, NUCH makes sure your content is easily managed with just a few 
     Built with [Rust]{.text-primary}
 
     #description
-    Optimized to the core, NUCH is built with Rust to ensure fast performance and low memory usage when processing your Markdown content and images.
+    Optimized to the core, NUCH is built with Rust to ensure fast performance and low memory usage when processing your Content files and images.
     ::::
 
     ::::u-page-card
