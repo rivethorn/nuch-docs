@@ -8,6 +8,15 @@ export default defineNuxtConfig({
     preference: "system",
     fallback: "dark",
   },
+  content: {
+    build: {
+      markdown: {
+        highlight: {
+          langs: ["ts", "bash", "toml", "powershell"],
+        },
+      },
+    },
+  },
   app: {
     head: {
       title: "NUCH - Nuxt Content Helper CLI",
